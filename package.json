@@ -1,0 +1,31 @@
+{
+  "name": "@marcom16/convertweight",
+  "version": "0.1.0",
+  "description": "A Weight Conversor",
+  "main": "dist/conversor.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcom16/weightConversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "wight",
+    "javascript",
+    "js"
+  ],
+  "author": "'Marco <'marco.jr1695@gmail.com'> ('https://github.com/marcom16')",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcom16/weightConversor/issues"
+  },
+  "homepage": "https://github.com/marcom16/weightConversor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
+}
