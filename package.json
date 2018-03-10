@@ -1,5 +1,5 @@
 {
-  "name": "@marcom16/convertweight",
+  "name": "@marcom16/weightconverter",
   "version": "0.1.0",
   "description": "A Weight converter",
   "main": "dist/converter.js",
