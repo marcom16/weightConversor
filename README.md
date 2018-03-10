@@ -1,4 +1,4 @@
-# Weight Conversor
+# Weight Converter
 
 ## Description
 
@@ -7,13 +7,13 @@ Use this to convert a mesure
 ## Instalation
 
 ```
-npm install weightConversor
+npm install weightConverter
 ```
 
 ## Use
 
 ```
-import convertWight from 'weightConversor'
+import convertWight from 'weightConverter'
 
 convertWight('from','to','weight')
 ```
