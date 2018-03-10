@@ -4,6 +4,7 @@
   "description": "A Weight converter",
   "main": "dist/converter.js",
   "scripts": {
+    "test": "mocha",
     "build": "babel src -d dist"
   },
   "repository": {

@@ -1,10 +1,10 @@
-export default function convertWight(from, to, weight) {
+export default function convertWeight(from, to, weight) {
   var newWeight = weight
 
   if (from == 'g' && to == 'kg') {
     return weight * 0.001
   } else if (from == 'g' && to == 'oz') {
-    return weight * 0.03277
+    return weight * 0.0353
   } else if (from == 'g' && to == 'lb') {
     return weight * 0.002205
   } else if (from == 'oz' && to == 'lb') {
@@ -22,9 +22,9 @@ export default function convertWight(from, to, weight) {
   } else if (from == 'lb' && to == 'oz') {
     return weight * 16
   } else if (from == 'kg' && to == 'oz') {
-    return weight * 35.27
+    return weight * 35.273991
   } else if (from == 'kg' && to == 'lb') {
-    return weight * 2.205
+    return weight * 2.204622
   }
   
   return newWeight

@@ -13,9 +13,30 @@ npm install weightConverter
 ## Use
 
 ```
-import convertWight from 'weightConverter'
+import convertWeight from 'weightConverter'
 
-convertWight('from','to','weight')
+convertWeight('from','to','weight')
+
+
+convertWeight("oz", "oz", 1000)
+convertWeight("oz", "lb", 1000)
+convertWeight("oz", "g", 1000)
+convertWeight("oz", "kg", 1000)
+
+convertWeight("lb", "oz", 1000)
+convertWeight("lb", "lb", 1000)
+convertWeight("lb", "g", 1000)
+convertWeight("lb", "kg", 1000)
+
+convertWeight("g", "oz", 1000)
+convertWeight("g", "lb", 1000)
+convertWeight("g", "g", 1000)
+convertWeight("g", "kg", 1000)
+
+convertWeight("kg", "oz", 1000)
+convertWeight("kg", "lb", 1000)
+convertWeight("kg", "g", 1000)
+convertWeight("kg", "kg", 1000)
 ```
 
 ## Credits
